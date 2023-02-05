@@ -21,27 +21,27 @@ while True :
   if computer_choice == player_choice:
     print("Tie! Both players choose the same actions.")
 
-  elif computer_choice== "paper" and player_choice== "rock":
+  elif computer_choice == "paper" and player_choice == "rock":
     computer_score += 1
     print("COMPUTER WON!")
 
-  elif computer_choice== "rock" and player_choice== "paper":
+  elif computer_choice == "rock" and player_choice == "paper":
     player_score += 1
     print("PLAYER WON!")
 
-  elif computer_choice== "rock" and player_choice== "scissor":
+  elif computer_choice == "rock" and player_choice == "scissor":
     computer_score += 1
     print("COMPUTER WON!")
     
-  elif computer_choice== "scissor" and player_choice== "rock":
+  elif computer_choice == "scissor" and player_choice == "rock":
     player_score += 1
     print("PLAYER WON!")
 
-  elif computer_choice== "scissor" and player_choice== "paper":
+  elif computer_choice == "scissor" and player_choice == "paper":
     computer_score += 1
     print("COMPUTER WON!")
 
-  elif computer_choice== "paper" and player_choice== "scissor":
+  elif computer_choice == "paper" and player_choice == "scissor":
     player_score += 1
     print("PLAYER WON!")
   
